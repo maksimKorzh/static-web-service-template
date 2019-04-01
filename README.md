@@ -4,7 +4,7 @@ A simple web server written using node.js and expressjs framework to host static
 # Dependencies
     sudo apt-get update
     sudo apt-get install nodejs    // npm should be installed automatically
-    sudo apt-get inslall npm       // if it not installed
+    sudo apt-get inslall npm       // if it isn't installed
 
 # Start new project
     npm init -y                    // creates package.json file
