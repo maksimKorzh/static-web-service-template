@@ -2,24 +2,24 @@
 A simple web server written using node.js and expressjs framework to host static content in pure html/css/javascript
 
 # Dependencies
-sudo apt-get update
-sudo apt-get install nodejs    // npm should be installed automatically
-sudo apt-get inslall npm       // if it not installed
+    sudo apt-get update
+    sudo apt-get install nodejs    // npm should be installed automatically
+    sudo apt-get inslall npm       // if it not installed
 
 # Start new project
-npm init -y                    // creates package.json file
-npm install express --save     // installs express framework locally
-npm install nodemon            // handy tool to automatically restart server
+    npm init -y                    // creates package.json file
+    npm install express --save     // installs express framework locally
+    npm install nodemon            // handy tool to automatically restart server
 
-modify package.json file like so:
+    modify package.json file like so:
 
-    "scripts": {
-      "start": "node server.js",
-      "dev": "nodemon server.js"
-    },
+        "scripts": {
+          "start": "node server.js",
+          "dev": "nodemon server.js"
+        },
 
-npm run start                  // starts server in production mode
-npm run dev                    // starts server in debug mode
+    npm run start                  // starts server in production mode
+    npm run dev                    // starts server in debug mode
 
 # Server side code
 
