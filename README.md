@@ -38,3 +38,4 @@ A simple web server written using node.js and expressjs framework to host static
     app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 
 # YouTube tutorial
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/uK36MuzpKkE/0.jpg)](https://youtu.be/uK36MuzpKkE)
